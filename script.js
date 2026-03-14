@@ -331,7 +331,7 @@ window.addEventListener('scroll', highlightNavigation);
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
     // Check if Google Sheets is configured
-    if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL') {
+    if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbzP4Cl5fHyz88Q5JYQQSS9RNq4xA_mIlUyK2SrGOx10XxEt-LeS9f9Zo2MGGkNl80y4/exec') {
         console.warn('⚠️ Google Sheets not configured. Please follow GOOGLE_SHEETS_SETUP.md to set up data storage.');
     } else {
         console.log('✅ Google Sheets integration ready');
